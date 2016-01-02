@@ -43,10 +43,11 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'test-unit'
 end
 
 group :test do
-gem 'selenium-webdriver', '2.0.0'
+gem 'selenium-webdriver', '~> 2.35.1'
 gem 'capybara'
 end
 
